@@ -1,0 +1,7 @@
+//mkae a private component swhich will hide the signup agter signup page
+// A component that renders the next match in a set of matches. Index Route - A child route with no path that renders in the parent's outlet at the parent's URL. Layout Route
+//outlate ke inside mai pass karna hai component
+and import in App.js and use sigin uppage ko bahar kar ke uske nadr privite compo ko use karna hai
+//get from localstorage
+
+//if cast error come the use params.is not _id

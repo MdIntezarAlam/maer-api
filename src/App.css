@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.appbar {
+    background-color: rgb(5, 0, 0);
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.imgs {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 3px;
+    cursor: pointer;
+    /* margin-left: 20px; */
+}
+
+.ultag {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    /* margin: 10px; */
+}
+
+li a {
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 80vh;
+    color: rgb(34, 34, 34);
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: turquoise;
+}
+
+/* Reg page */
+
+.reg_container {
+    background-color: gray;
+    height: 90vh;
+    width: 100%;
+    display: inline-block;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(113, 113, 113);
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.regbox {
+    width: 300px;
+    height: 330px;
+    background-color: rgb(126, 85, 7);
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    border: 0ch;
+    color: gray;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid turquoise;
+}
+
+.error {
+    color: red;
+    font-size: 15px;
+    margin-left: 12px;
+}
+
+.btn {
+    padding: 5px;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup {
+    width: 100%;
+    margin: 1px;
+    padding: 6px;
+    border: 0;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+    outline: none;
+}
+
+/* Add Product Components */
+
+.addpro {
+    width: 100%;
+    background-color: gray;
+    display: inline-block;
+    height: 88vh;
+}
+
+.add_box {
+    width: 370px;
+    min-height: 390px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: rgb(182, 182, 182);
+    border: 1px solid lawngreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.addproh {
+    text-align: center;
+    color: black;
+}
+
+.addPro {
+    width: 345px;
+    color: white;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(116, 7, 248);
+}
+
+.all_input {
+    padding: 8px;
+    margin: 12px;
+    border: 0ch;
+    color: gray;
+    outline: none;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid turquoise;
+}
+
+/* product lsit */
+.list_cotnatainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+.listtag {
+    border: 1px solid black;
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    font-size: 19px;
+    color: black;
+    font-weight: 600;
+}
+
+.list_cotnatainer ul {
+    margin: 0;
+}
+
+.sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deletebtn {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(39, 5, 255);
+}
+
+.up {
+    width: 100%;
+    background-color: tomato;
+    padding: 5px;
+    margin: 2px;
+    padding: 10px;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: rgb(39, 5, 255);
+}
+.search{
+    padding: 10px;
+    width: 785px;
+    font-size: 20px;
+}
